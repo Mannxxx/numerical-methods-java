@@ -22,9 +22,6 @@
  */
 package dev.nm;
 
-import dev.nm.algebra.linear.matrix.doubles.Matrix;
-import dev.nm.algebra.linear.matrix.doubles.matrixtype.dense.DenseMatrix;
-
 /**
  *
  * @author haksunli
@@ -41,8 +38,7 @@ public class Example0010 {
     }
 
     public int function2() {
-        Matrix A = new DenseMatrix(new double[][]{{1, 2}, {3, 4}});
-        return A.nCols();
+        return 2;
     }
 
 }
